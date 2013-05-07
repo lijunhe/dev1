@@ -1,0 +1,44 @@
+Visual Studio 2012 SharePoint 2013 templates - http://aka.ms/OfficeDevToolsFor2012
+Communicating with SharePoint .... when opening apsx page for the 1st time
+
+In SharePoint 2013, apps have their own identity and specific permissions
+	- installing user (site collection admin) grants or denies permissions to the host web
+	- permission is explicitly given for a specific scope (?)
+	- app identity is passed around using oAuth tokens
+
+Apps connect to SharePoint using
+	- SharePoint 2013 Client Side Object Model (CSOM)
+	- SharePoint 2013 REST API (oData protocol)
+	- Javascript cross-domain library (SP.RequestExecutor.js) (C:\Program Files\SharePoint Client Components\Scripts)
+
+REST URLs
+	http://<sharepoint>/_api/web
+
+	_api/web/lists
+	_api/web/lists/list1
+	_api/web/?$select=title,id
+	/_api/web/lists/getByTitle("Consultants")/Items
+
+Response data format: ATOM XML or JSON, with ACCEPT header
+	use "application/json" to get JSON response
+
+(
+	use http://<sharepoint>/_vti_bin/client.svc/web to test SharePoint 2013 REST API responses 
+	in Chrome, IE 9 is unable to display the returned XML document
+)
+
+SharePoint Hosted App
+	- installation of App creates child site in target site
+	- App Web communication with Host Web through CSOM, REST or Javascript cross-domain library
+	- no server side code is allowed
+	- app can create in Host Web
+		- custom actions 
+		- client-side web parts
+	- app can provision almost everything in App Web, declaratively
+		- Lists
+		- Site Pages
+		- CSS files
+		- Javascript files
+		- etc.
+
+* ability to press F5 in Visual Studio to publish to Office 365
