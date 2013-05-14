@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="e4c0fe22-8e47-40d7-bda6-99a972c934a8" 
+        solutionId="e4c0fe22-8e47-40d7-bda6-99a972c934a8" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="DevFacto.Hawk.SP2013"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="502a15c6-2fc8-448e-b596-55694ec4b1c9" />
+  </features>
+</package>

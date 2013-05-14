@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="DevFactoHawkSP2013"
+     ProductID="{dfc16a4c-ec7b-4c31-a744-1f2bf516fb4a}"
+     Version="1.0.0.0"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>DevFacto.Hawk.SP2013</Title>
+    <StartPage>https://lhw2k8r2s1.lhdev.local:8443/HawkWeb/</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+
+</App>
