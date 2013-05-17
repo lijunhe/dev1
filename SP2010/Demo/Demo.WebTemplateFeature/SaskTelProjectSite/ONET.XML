@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Title="$Resources:onet_TeamWebSite;" Revision="2" ListDir="$Resources:core,lists_Folder;" xmlns:ows="Microsoft SharePoint" UIVersion="4">
+  <Configurations>
+    <Configuration ID="0" Name="Default" MasterUrl="_catalogs/masterpage/v4_SaskTel.master">
+      <SiteFeatures>
+        <!-- BasicWebParts Feature -->
+        <Feature ID="00BFEA71-1C5E-4A24-B310-BA51C3EB7A57" />
+        <!-- Three-state Workflow Feature -->
+        <Feature ID="FDE5D850-671E-4143-950A-87B473922DC7" />
+        <!-- SharePoint Server Publishing Infrastructure -->
+        <Feature ID="f6924d36-2fa8-4f0b-b16d-06b7250180fa" />
+        
+        <!-- SaskTel Project Site MasterPage -->
+        <Feature ID="5bb397f4-aa2f-4557-8cc0-8a0eebd09366" />
+      </SiteFeatures>
+      <WebFeatures>
+        <!-- TeamCollab Feature -->
+        <Feature ID="00BFEA71-4EA5-48D4-A4AD-7EA5C011ABE5" />
+        <!-- MobilityRedirect -->
+        <Feature ID="F41CC668-37E5-4743-B4A8-74D1DB3FD8A4" />
+        <!-- WikiPageHomePage Feature -->
+        <Feature ID="00BFEA71-D8FE-4FEC-8DAD-01C19A6E4053" />
+        <!-- SharePoint Server Publishing -->
+        <Feature ID="94c94ca6-b32f-4da9-a9e3-1f3d343d7ecb" />
+      </WebFeatures>
+    </Configuration>
+  </Configurations>
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <WebTemplate Name="SaskTelProjectSite" 
+               BaseTemplateID="1" 
+               BaseTemplateName="STS"
+               BaseConfigurationID="0"
+               DisplayCategory="SaskTel Projects"
+               Title="SaskTel Project Site"
+               Description="SaskTel Project Collaboration Site"
+    />
+</Elements>

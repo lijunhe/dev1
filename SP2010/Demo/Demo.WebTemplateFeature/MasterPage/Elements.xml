@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPage" Url="_catalogs/masterPage">
+    <File Path="MasterPage\v4_SaskTel.master" Url="v4_SaskTel.master" Type="GhostableInLibrary">
+      <Property Name="Title" Value="SaskTel Project Site Master Page" />
+      <Property Name="MasterPageDescription" Value="SaskTel Project Site Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name" />
+      <!--<Property Name="UIVersion" Value="4" />-->
+      <!--<Property Name="ContentTypeId" Value="0x010105" />-->
+    </File>
+</Module>
+</Elements>
